@@ -1,2 +1,2 @@
 # cursoCTDES
-Repositório para a aula do curso CTDES 
+Repositório para as aulas do curso CTDES 
