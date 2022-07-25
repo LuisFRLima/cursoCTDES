@@ -16,8 +16,8 @@ namespace luisfelipe_d3_avaliacao
 
             do
             {
-                Console.WriteLine("\nBem Vindo ao sistema LogCons:\n");
-                Console.WriteLine("\nEscolha uma das opções abaixo:\n");
+                Console.WriteLine("Bem Vindo ao sistema LogCons:\n");
+                Console.WriteLine("Escolha uma das opções abaixo:\n");
                 Console.WriteLine("1 - Acessar o sistema");
                 Console.WriteLine("2 - Cadastrar um novo Usuário");
                 Console.WriteLine("0 - Sair do sistema\n");
@@ -90,9 +90,9 @@ namespace luisfelipe_d3_avaliacao
 
             do
             {
-                Console.WriteLine("\nEscolha uma das opções abaixo:\n");
+                Console.WriteLine("\nEscolha uma das opções abaixo:");
                 Console.WriteLine("1 - Deslogar o sistema");
-                Console.WriteLine("2 - Encerrar o sistema \n");
+                Console.WriteLine("2 - Encerrar o sistema");
                 option = Console.ReadLine();
 
                 switch (option)
