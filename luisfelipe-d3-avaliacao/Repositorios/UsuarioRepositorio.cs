@@ -8,14 +8,12 @@ namespace luisfelipe_d3_avaliacao.Repositorios
     internal class UsuarioRepositorio : IUser
     {
         
-         private readonly string stringConexao = "Data Source=DESKTOP-H6E3AOD\\DESKTOPH6E3AOD;Initial Catalog=Usuario;User id=sa;pwd=mudar@123;";
+         private readonly string stringConexao = "Data Source=DESKTOP-H6E3AOD\\DESKTOPH6E3AOD;Initial Catalog=luisfelipe-d3-avaliacao;User id=sa;pwd=mudar@123;";
        
         public void Create(Usuario user)
         {
-            
             using (SqlConnection con = new(stringConexao))
             {
-               
                 string queryInsert = "INSERT INTO Usuario (Id, Nome, Senha, Email) VALUES (@Id, @Nome, @Senha, @Email)";
                 using (SqlCommand cmd = new(queryInsert, con))
                 {
